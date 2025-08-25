@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .circle1{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 20px;
+            border-radius: 400px;
+            transition: transform 0.3s ease;
+            animation: circle 1s ease 1;
+        }
+        .circle2{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 20px;
+            border-radius: 400px;
+            transition: transform 0.3s ease;
+            animation: circle2 4s ease 1s 2;
+        }
+        @keyframes circle{
+            from{
+                background-color: brown;
+                width: 800px;
+            }
+            to{
+                background-color: black;
+            }
+        }
+        @keyframes circle2{
+            0%{
+                position: relative;
+                top: 20px;
+                background-color: antiquewhite;
+            }
+            10%{
+                position: relative;
+                top: 420px;
+                background-color: blueviolet;
+            }
+            20%{
+                background-color: blue;
+            }
+            30%{
+                background-color: brown;
+            }
+        }
+        .circle1:hover{
+            transform: scale(1.1);
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+</body>
+</html>

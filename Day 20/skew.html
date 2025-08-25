@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        div{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 400px;
+            transition: transform 5s ease;
+        }
+        .box:hover{
+            transform: skew(10deg,10deg) scale(10);
+        }
+        .circle{
+            border-radius: 400px;
+        }
+        .circle:hover{
+            transform: scale(10);
+        }
+        .circle1{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 400px;
+            border-radius: 400px;
+            transition: transform 5s linear 1s;
+        }
+        .circle1:hover{
+            transform: scale(10);
+        }
+        .circle2{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 400px;
+            border-radius: 400px;
+            transition: transform 5s ease-in-out;
+        }
+        .circle2:hover{
+            transform: scale(10);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="circle"></div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+</body>
+</html>

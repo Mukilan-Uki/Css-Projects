@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .circle1{
+           
+            height: 400px;
+            width: 400px;
+          
+            border-radius: 0px;
+            
+            animation: circle 5s ease 1;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes circle{
+            0%{
+                background-color: antiquewhite;
+                transform: translate(0px,0px);
+            }
+            10%{
+                background-color: blueviolet;
+            }
+            20%{
+                background-color: blue;
+            }
+            30%{
+                background-color: brown;
+            }
+            40%{
+                background-color: violet;
+            }
+            50%{
+                background-color: tomato;
+            }   
+            100%{
+                 background-color: black;
+                 transform: translate(400px,400px);
+            
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+</body>
+</html>

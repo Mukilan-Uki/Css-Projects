@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body{
+            background-color: #edf2f4;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+        }
+        .all{
+            display: flex;
+            flex-direction: row;
+        }
+        .phone{
+            text-align: center;
+            background-color: white;
+            border-radius: 40px;
+            height: 450px;
+            margin: 10px;
+        }
+        .phone:hover{
+            background-color: antiquewhite;
+            transition: all 0.3s ease;
+            height: 470px;
+            width: 270px;
+        }
+        .buy:hover{
+            background-color: rgb(255, 136, 0);
+            transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+        .image{
+            height: 280px;
+            width: 250px;
+            border-radius: 40px;
+            position: relative;
+        }
+        .topic{
+            background-color: white;
+            position: relative;
+            z-index: 1;
+            bottom: 60px;
+            padding: 10px;
+        }
+        .topic:hover{
+            background-color: antiquewhite;
+            transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+        .details{
+            color: grey;
+            position: relative;
+            bottom: 70px;
+            font-size: 14px;
+        }
+        .price{
+            color: purple;
+            position: relative;
+            bottom: 70px;
+        }
+        .buy{
+            background-color: orange;
+            color: black;
+            border-radius: 20px;
+            position: relative;
+            bottom: 70px;
+            padding: 10px;
+            padding-right: 70px;
+            padding-left: 70px;
+        }
+        .image:hover{
+            height: 300px;
+            width: 270px;
+            transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Featured Products</h1>
+    <div class="all">
+        <div class="phone">
+            <img class="image" src="/smartphone.jpg" alt="phone">
+            <h3 class="topic">Smartphone X</h3>
+            <p class="details">Latest genration smart phone with AI camera and stunning display.</p>
+            <h2 class="price">$999</h2>
+            <a class="buy">Buy Now</a>
+        </div>
+        <div class="phone">
+            <img class="image" src="/laptop.jpg" alt="laptop">
+            <h3 class="topic">Laptop Pro</h3>
+            <p class="details">Powerfull and light weight laptop for professionals on the ago.</p>
+            <h2 class="price">$1499</h2>
+            <a class="buy">Buy Now</a>
+        </div>
+        <div class="phone">
+            <img class="image" src="/smartwatch.jpg" alt="smartwatch">
+            <h3 class="topic">Smartwatch S</h3>
+            <p class="details">Track your fitness and stay connected with this sleek smartwatch.</p>
+            <h2 class="price">$299</h2>
+            <a class="buy">Buy Now</a>
+        </div>
+        <div class="phone">
+            <img class="image" src="/headphone.jpg" alt="headphone">
+            <h3 class="topic">Headphone Z</h3>
+            <p class="details">Immersive sound quality with noice cancelling technology</p>
+            <h2 class="price">$199</h2>
+            <a class="buy">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .circle1{
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            margin: 200px;
+            border-radius: 0px;
+            transition: transform 0.3s ease;
+            animation: circle 10s ease 1;
+        }
+        @keyframes circle{
+            0%{
+                background-color: antiquewhite;
+                border-radius: 0px;
+                transform: rotate(0deg);
+                width: 400px;
+                height: 400px;
+                margin: 200px;
+            }
+            10%{
+                background-color: blueviolet;
+                border-radius: 400px;
+                transform: rotate(0deg);
+                width: 400px;
+                height: 400px;
+            }
+            20%{
+                background-color: blue;
+                border-radius: 0px;
+                transform: rotate(45deg);
+                width: 400px;
+                height: 400px;
+            }
+            30%{
+                background-color: brown;
+                border-radius: 0px;
+                transform: rotate(0deg);
+                width: 700px;
+                height: 400px;
+            }
+            40%{
+                background-color: violet;
+                border-radius: 0px;
+                transform: rotate(0deg);
+                width: 400px;
+                height: 700px;
+            }
+            50%{
+                background-color: tomato;
+                border-radius: 0px;
+                transform: rotate(0deg);
+                width: 700px;
+                height: 700px;
+                margin: 700px;
+            }
+        }
+        .circle1:hover{
+            transform: scale(1.1);
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+</body>
+</html>
