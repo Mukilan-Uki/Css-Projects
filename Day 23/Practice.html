@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        img{
+            height: 800px;
+            width: 500px;
+        }
+        .all{
+            display: flex;
+            background-color: white;
+            width: 1200px;
+            height: 800px;
+        }
+        .form{
+            display: flex;
+        }
+        .stline{
+            height: 500px;
+            width: 300px;
+            margin: 20px;
+        }
+        .ndline{
+            height: 500px;
+            width: 300px;
+            margin: 20px;
+        }
+        .name{
+            margin: 20px;
+            height: 40px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        #name{
+            margin: 20px;
+            margin-bottom: 50px;
+            height: 40px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        h1{
+            margin-left: 40px;
+            font-size: 50px;
+        }
+        .button{
+            background-color: #003566;
+            color: white;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 100px;
+            position: relative;
+            top: 80px;
+        }
+        .tik{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div class="image">
+        <img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 23/image.jpg" alt="image">
+    </div>
+    <form>
+            <h1>Sign up</h1>
+            <div class="form">
+            <div class="stline">
+                <label for="1stname" id="name">FIRST NAME</label><br>
+                <input type="text" class="name" id="name"><br>
+                <label for="phone" id="name">PHONE</label><br>
+                <input type="number" class="name" id="name"><br>
+                <label for="password" id="name">PASSWORD</label><br>
+                <input type="password" class="name" id="name"><br>
+                <input type="checkbox" class="tik">
+                <label for="checkbox" class="tik">I accept terms and conditions</label>
+            </div>
+            <div class="ndline">
+                <label for="2ndname" id="name">LAST NAME</label><br>
+                <input type="text" class="name" id="name"><br>
+                <label for="email" id="name">EMAIL</label><br>
+                <input type="email" class="name" id="name"><br>
+                <label for="password" id="name">CONFIRM PASSWORD</label><br>
+                <input type="password" class="name" id="name"><br>
+                <input type="checkbox" class="tik">
+                <label for="checkbox" class="tik">I want to recieve news</label>
+            </div>
+            </div>
+            <h2 class="button">SIGN UP</h2>
+    </form>
+    </div>
+</body>
+</html>
