@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 3px;
+        }
+        .image1{
+            border-radius: 100%;
+        }
+        .image2{
+            border-radius: 0% 50% 0% 0%;
+        }
+        .image3{
+            border-radius: 0% 0% 50% 0%;
+        }
+        .image4{
+            border-radius: 50% 50% 0% 50%;
+        }
+        .eyeimage{
+            border-radius: 100px 0px 100px 0px;
+            height: 300px;
+            width: 400px;
+        }
+        .wallimage{
+            border-radius: 90px 0px 0px 90px;
+            height: 305px;
+            position: absolute;
+            z-index: 1;
+            top: 620px;
+            left: 620px;
+            width: 170px;
+        }
+        .image5{
+            border-radius: 90px 90px 90px 0px;
+            width: 400px;
+            height: 200px;
+            position: absolute;
+            z-index: 1;
+            left: 795px;
+        }
+        .all{
+            display: flex;
+            margin: 200px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+        }
+        .row1{
+            display: flex;
+        }
+        .row2{
+            display: flex;
+        }
+        .row3{
+            display: flex;
+        }
+        .logo{
+            margin: 40px;
+            font-size: 30px;
+        }
+        .title{
+            font-size: 70px;
+        }
+        .desc{
+            font-size: 20px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            width: 150px;
+            padding: 15px;
+            font-size: 20px;
+            position: relative;
+            top: 45px;
+        }
+        a{
+            text-decoration: none;
+            color: #4361ee;
+        }
+        .link{
+            width: 180px;
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: 200px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="left">
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#2c1dfc" stroke-width="0.00016"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" fill="#3c52c3"></path> </g></svg>
+            <h2 class="logo">AYT</h2>
+            <h1 class="title">Be <br>Creative <br>Every Day</h1>
+            <p class="desc">Explore your creativity with thousand of <br>inspiring classes in design,interface</p>
+            <button class="try">Try for free</button>
+            <div class="link"><a href="">Want to know more about us</a></div>
+        </div>
+        <div class="right">
+            <div class="row1">
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/image1.jpg" class="image1"></div>
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/image2.jpg" class="image2"></div>
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/image3.jpg" class="image3"></div>
+            </div>
+            <div class="row2">
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/image4.jpg" class="image4"></div>
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/eyeimage.jpg" class="eyeimage"></div>
+            </div>
+            <div class="row3">
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/wallpicture.jpg" class="wallimage"></div>
+                <div><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 24/image5.jpg" class="image5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
