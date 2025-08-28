@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img{
+            height: 800px;
+            width: 1950px;
+            filter: brightness(30%);
+            position: absolute;
+            z-index: 1;
+        }
+        .title{
+            position: absolute;
+            z-index: 2;
+            color: white;
+            left: 100px;
+        }
+        .logo{
+            position: relative;
+            left: 100px;
+            top: 20px;
+        }
+        .contant{
+            position: relative;
+            left: 100px;
+            top: 200px;
+            font-size: 70px;
+        }
+        .form{
+            position: absolute;
+            z-index: 2;
+            left: 1000px;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            height: 800px;
+            width: 950px;
+        }
+        form{
+            padding: 20px;
+            position: relative;
+            top: 50px;
+            left: 260px;
+        }
+        .box{
+            background-color: rgb(87, 85, 85);
+            border: none;
+            height: 40px;
+            width: 450px;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 10px;
+            padding: 10px;
+        }
+        input::placeholder{
+            color: white;
+        }
+        textarea{
+            background-color: rgb(87, 85, 85);
+            border: none;
+            height: 120px;
+            width: 300px;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 10px;
+            padding: 10px;
+        }
+        textarea::placeholder{
+            color: white;
+        }
+        .boxcomp{
+            background-color: rgb(87, 85, 85);
+            border: none;
+            height: 40px;
+            width: 225px;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 10px;
+            padding: 10px;
+        }
+        .boxphone{
+            background-color: rgb(87, 85, 85);
+            border: none;
+            height: 40px;
+            width: 180px;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 10px;
+            padding: 10px;
+        }
+        .head{
+            color: greenyellow;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        button{
+            background-color: greenyellow;
+            border: none;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: 800;
+            width: 200px;
+            margin-top: 50px;
+        }
+        .bottom{
+            position: absolute;
+            z-index: 2;
+            top: 900px;
+            text-align: center;
+        }
+        .bottomhead{
+            font-size: 40px;
+        }
+        a{
+            color: greenyellow;
+        }
+        hr{
+            width: 1600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="bkimage"><img src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 25/imagedisc.jpg" alt=""></div>
+        <div class="title">
+            <h1 class="logo">CREATIVE AGENCY</h1>
+            <h1 class="contant">BIG IDEAS,<br>CREATIVE PEOPLE<br>NEW TECHNOLOGY.</h1>
+        </div>
+        <div class="form">
+            <form>
+                <h2 class="head">CONTACT US</h2>
+                <input type="text" placeholder="Full Name" class="box"><br>
+                <input type="email" placeholder="Email Address" class="box"><br>
+                <input type="text" placeholder="Company" class="boxcomp">
+                <input type="number" placeholder="Phone" class="boxphone"><br>
+                <textarea cols="30" rows="10" placeholder="Message"></textarea><br>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+        <div class="bottom">
+            <h2 class="bottomhead">WE THINK<a>BIG</a></h2>
+            <hr>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quam. Doloribus accusamus sint culpa ad animi minus vel error fuga dolores nihil, quas corporis quasi obcaecati sit laudantium vitae nobis amet magnam quisquam sequi libero. Necessitatibus maxime doloremque adipisci corrupti molestias aut animi, saepe sed itaque sequi dignissimos dolores inventore, dicta non accusantium error veniam officiis facilis unde minus. Voluptatum.</p>
+        </div>
+    </div>
+</body>
+</html>
