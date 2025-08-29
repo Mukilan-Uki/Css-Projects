@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .img{
+            width: 1950px;
+            height: 500px;
+            position: absolute;
+            z-index: 1;
+            filter: brightness(50%);
+        }
+        .logo{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            z-index: 2;
+            margin-top: 20px;
+            left: 115px;
+        }
+        .detail1{
+            position: absolute;
+            z-index: 2;
+            background-color: #02055a;
+            width: 300px;
+            height: 300px;
+            top: 360px;
+            left: 400px;
+            text-align: center;
+            border-bottom: 10px solid #ffc800;
+            transition: 0.3s ease;
+        }
+        .detail2{
+            position: absolute;
+            z-index: 2;
+            background-color: #ffc800;
+            width: 300px;
+            height: 300px;
+            top: 400px;
+            left: 720px;
+            text-align: center;
+            border-bottom: 10px solid #02055a;
+            transition: 0.3s ease;
+        }
+        .detail3{
+            position: absolute;
+            z-index: 2;
+            background-color: #ffc800;
+            width: 300px;
+            height: 300px;
+            top: 400px;
+            left: 1040px;
+            text-align: center;
+            border-bottom: 10px solid #02055a;
+            transition: 0.3s ease;
+        }
+        .detail4{
+            position: absolute;
+            z-index: 2;
+            background-color: #ffc800;
+            width: 300px;
+            height: 300px;
+            top: 400px;
+            left: 1360px;
+            text-align: center;
+            border-bottom: 10px solid #02055a;
+            transition: 0.3s ease;
+        }
+        .detail1:hover{
+            position: absolute;
+            top: 320px;
+        }
+        .detail2:hover{
+            position: absolute;
+            top: 360px;
+        }
+        .detail3:hover{
+            position: absolute;
+            top: 360px;
+        }
+        .detail4:hover{
+            position: absolute;
+            top: 360px;
+        }
+        .title1{
+            color: #ffc800;
+            font-size: 27px;
+            font-weight: 1000;
+            margin-top: 130px;
+        }
+        .desc1{
+            color: white;
+            font-size: 20px;
+        }
+        .title{
+            color: #02055a;
+            font-size: 27px;
+            font-weight: 1000;
+            margin-top: 130px;
+        }
+        .desc{
+            color: #02055a;
+            font-size: 20px;
+        }
+        .about{
+            position: absolute;
+            top: 800px;
+            left: 400px;
+            width: 500px;
+        }
+        .abouthead{
+            color: #02055a;
+            padding-left: 20px;
+            border-left: #ffc800 5px solid;
+            margin-bottom: 40px;
+        }
+        a{
+            color: gray;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        p{
+            color: #02055a;
+        }
+        .middle{
+            position: absolute;
+            top: 800px;
+            left: 1000px;
+            width: 700px;
+            height: 400px;
+        }
+        button{
+            background-color: #02055a;
+            border: none;
+            border-left: #ffc800 5px solid;
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            width: 200px;
+            margin-top: 40px;
+            transition: 0.3s ease;
+        }
+        button:hover{
+            border-left: #ffc800 10px solid;
+        }
+        .fixed{
+            background-color: white;
+            height: 500px;
+            width: 60px;
+            z-index: 3;
+            position: fixed;
+            top: 300px;
+            left: 1850px;
+            border-radius: 5px;
+        }
+        .minilogo1{
+            height: 30px;
+            width: 30px;
+            margin-top: 0px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo2{
+            height: 30px;
+            width: 30px;
+            margin-top: 40px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo3{
+            height: 30px;
+            width: 30px;
+            margin-top: 80px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo4{
+            height: 30px;
+            width: 30px;
+            margin-top: 120px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo5{
+            height: 30px;
+            width: 30px;
+            margin-top: 160px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo6{
+            height: 30px;
+            width: 30px;
+            margin-top: 200px;
+            padding: 10px;
+            transition: 0.3s ease;
+        }
+        .minilogo1:hover{
+            transform: scale(1.2);
+        }
+        .minilogo2:hover{
+            transform: scale(1.2);
+        }
+        .minilogo3:hover{
+            transform: scale(1.2);
+        }
+        .minilogo4:hover{
+            transform: scale(1.2);
+        }
+        .minilogo5:hover{
+            transform: scale(1.2);
+        }
+        .minilogo6:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<!--#02055a-->
+<!--#ffc800-->
+<body>
+    <img class="img" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/image.jpg" alt="">
+    <div class="all">
+        <div class="detail1">
+            <img class="logo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/building.svg" alt="">
+            <h2 class="title1">Construction</h2>
+            <p class="desc1">Consturction is the process of constructing a building or infratructure</p>
+        </div>
+        <div class="detail2">
+            <img class="logo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/setting.svg" alt="">
+            <h2 class="title">Renovation</h2>
+            <p class="desc">Consturction is the process of constructing a building or infratructure</p>
+        </div>
+        <div class="detail3">
+            <img class="logo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/box.svg" alt="">
+            <h2 class="title">Architecture</h2>
+            <p class="desc">Consturction is the process of constructing a building or infratructure</p>
+        </div>
+        <div class="detail4">
+            <img class="logo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/map.svg" alt="">
+            <h2 class="title">Planning</h2>
+            <p class="desc">Consturction is the process of constructing a building or infratructure</p>
+        </div>
+    </div>
+    <div class="about">
+        <h1 class="abouthead">About Us <br><a>Who we Are?</a></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus vel ullam? Expedita velit quod, maxime quos, impedit unde voluptatem aliquid, corrupti labore dolorem rerum eum voluptate? Tempora fugiat, natus dicta officia distinctio atque veniam hic architecto vel quam nisi mollitia, velit tempore deserunt ad qui expedita dolore possimus temporibus ipsam incidunt corporis perspiciatis! Mollitia deserunt voluptatum amet quibusdam. Laboriosam fugiat facilis, placeat corrupti voluptatem itaque consequatur veniam at quibusdam iusto deleniti quod sed dicta est quisquam officiis ad tempora minima! Eveniet at, obcaecati possimus aspernatur quia alias deleniti est similique consequuntur commodi, dolorum ab. Placeat distinctio aliquid possimus consectetur.</p>
+        <button>Read more</button>
+    </div>
+    <img class="middle" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/middle.jpg" alt="">
+    <div class="fixed">
+        <img class="minilogo1" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/install.svg" alt="">
+        <img class="minilogo2" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/page.svg" alt="">
+        <img class="minilogo3" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/youtube.svg" alt="">
+        <img class="minilogo4" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/message.svg" alt="">
+        <img class="minilogo5" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/heart.svg" alt="">
+        <img class="minilogo6" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 26/laptop.svg" alt="">
+    </div>
+</body>
+</html>
