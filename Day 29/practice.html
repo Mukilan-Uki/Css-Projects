@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .image1 {
+            height: 800px;
+            width: 1950px;
+        }
+        .top {
+            background-color: #003049;
+            height: 85px;
+            box-shadow: 0px 0px 4px gray;
+        }
+        .topul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .topli, .topliA {
+            list-style: none;
+            color: rgb(210, 208, 208);
+            font-size: 20px;
+            border: none;
+            border-right: 1px solid rgb(210, 208, 208);
+            padding: 30px;
+            transition: 0.1s ease;
+        }
+        .home {
+            list-style: none;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-right: 1px solid white;
+            border-bottom: 5px solid white;
+            padding: 30px;
+        }
+        .topli:hover,
+        .topliA:hover {
+            border-bottom: 5px solid white;
+            color: white;
+        }
+        .topbutton {
+            background-color: rgb(238, 238, 238);
+            color: #003049;
+            border: none;
+            position: absolute;
+            z-index: 2;
+            top: 15px;
+            left: 1550px;
+            padding: 24px;
+            width: 300px;
+            font-size: 20px;
+            transition: 0.2s ease;
+        }
+        .topbutton:hover {
+            background-color: white;
+        }
+        .phone {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            z-index: 2;
+            top: 35px;
+            left: 1580px;
+        }
+        .spanli {
+            list-style: none;
+            background-color: #003049;
+            color: white;
+            padding: 20px;
+        }
+        .span {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            margin: 0;
+            padding: 0;
+        }
+        .topliA-container {
+            position: relative;
+        }
+        .hidden {
+            position: absolute;
+            top: 90px;
+            left: 0;
+            background-color: #003049;
+            visibility: hidden;
+            z-index: 2;
+            transition: 0.2s ease;
+        }
+        .topliA-container:hover .hidden {
+            visibility: visible;
+        }
+        .middle{
+            position: absolute;
+            z-index: 2;
+            top: 300px;
+            left: 100px;
+            font-size: 35px;
+            width: 700px;
+        }
+        .middlebutton{
+            background-color: #003049;
+            color: white;
+            border: none;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <ul class="topul">
+            <li class="home">Home</li>
+            <li class="topliA-container">
+                <div class="topliA">About</div>
+                <div class="hidden">
+                    <ul class="span">
+                        <li class="spanli">Submenu 1</li>
+                        <li class="spanli">Dropdown menu</li>
+                        <li class="spanli">Submenu 2</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="topli">Services</li>
+            <li class="topli">FAQ</li>
+            <li class="topli">Blog</li>
+            <li class="topli">Shop</li>
+            <li class="topli">Contact</li>
+        </ul>
+        <button class="topbutton">Free Consultation</button>
+        <img class="phone" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 29/phone.svg" alt="">
+    </div>
+    <img class="image1" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 29/businessman.jpg" alt="">
+    <div class="middle">
+        <h1>We will take you through <br>Each step till the end</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque impedit saepe, in voluptates voluptate autem nam nulla facere facilis deserunt molestias accusamus quidem pariatur recusandae.</p>
+        <button class="middlebutton">Our Solution</button>
+    </div>
+</body>
+</html>
