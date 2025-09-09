@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elements</title>
+    <style>
+        .title::after{
+            content: "\1F525";
+        }
+        .title::before{
+            content: "\1F680";
+        }
+        .title::selection{
+            background-color: yellow;
+            color: blue;
+        }
+        li::marker{
+            color: red;
+        }
+        li{
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Hello World</h1>
+    <ul>
+        <li>hi</li>
+        <li>hi</li>
+        <li>hi</li>
+        <li>jo</li>
+        <li>lo</li>
+    </ul>
+</body>
+</html>

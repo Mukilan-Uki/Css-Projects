@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .backgroundimg{
+            height: 700px;
+            width: 1200px;
+            position: absolute;
+            z-index: 1;
+            top: 80px;
+        }
+        .top{
+            position: absolute;
+            z-index: 3;
+            display: flex;
+        }
+        .minilogo{
+            position: relative;
+            top: 50px;
+            left: 150px;
+            margin: 20px;
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+            margin: 40px;
+            font-size: 35px;
+        }
+        .logo{
+            font-weight: 800;
+            font-size: 50px;
+        }
+        select{
+            position: relative;
+            top: 10px;
+            font-size: 30px;
+            border: none;
+            background-color: rgba(0, 0,0,0);
+        }
+        input{
+            font-size: 25px;
+            padding: 20px;
+            border: none;
+            border-radius: 2px;
+            background-color: white;
+            width: 400px;
+        }
+        .insp{
+            position: relative;
+            top: 15px;
+            font-size: 30px;
+        }
+        .backgroundimg2{
+            position: absolute;
+            z-index: 2;
+            height: 700px;
+            width: 1200px;
+            top: 300px;
+            left: 500px;
+        }
+        .middle{
+            position: absolute;
+            z-index: 4;
+            top: 200px;
+            left: 100px;
+            background-color: rgba(255, 255, 255, 0.9);
+            height: 700px;
+        }
+        h1{
+            padding: 40px;
+            font-size: 70px;
+        }
+        p{
+            position: relative;
+            bottom: 80px;
+            padding: 40px;
+            font-size: 25px;
+        }
+        button{
+            position: relative;
+            bottom: 70px;
+            left: 25px;
+            padding: 50px;
+            color: white;
+            font-size: 30px;
+            width: 500px;
+            border: none;
+            background-color: rgb(255, 140, 0);
+        }
+        .middle2{
+            background-color: rgba(255, 255, 255, 0.9);
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            z-index: 4;
+            top: 700px;
+            left: 1250px;   
+        }
+        h2{
+            font-size: 30px;
+            padding: 20px;
+        }
+        .middlebottom{
+            position: relative;
+            bottom: 150px;
+        }
+    </style>
+</head>
+<body>
+    <img class="backgroundimg2" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 30/sofa.jpg" alt="">
+    <img class="backgroundimg" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 30/sofa3.jpg" alt="">
+    <div class="top">
+        <ul>
+            <li class="logo">Funiro.</li>
+            <li>
+                <select>
+                    <option>Products</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option>Rooms</option>
+                </select>
+            </li>
+            <li class="insp">Inspiration</li>
+            <li class="searchbox"><input type="search" placeholder="&#128269 Search for minimaist chair"></li>
+        </ul>
+        <img class="minilogo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 30/heart.svg" alt="">
+        <img class="minilogo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 30/shopping.svg" alt="">
+        <img class="minilogo" src="/home/uki-dsa-04/Mukilan/UKi/CSS/CSS practice/Day 30/unnamed.png" alt="">
+    </div>
+    <div class="middle">
+        <h1>High-Quality<br>Furniture Just<br>For You</h1>
+        <p>Our furniture is made from selected <br>and best quality materials that are <br>suitable for your dream home.</p>
+        <button>Shop Now</button>
+    </div>
+    <div class="middle2">
+        <h2>Bahauss</h2>
+        <p>Luxury big sofa 2-seat</p>
+        <h2 class="middlebottom">Rp 17,000.00</h2>
+    </div>
+</body>
+</html>
